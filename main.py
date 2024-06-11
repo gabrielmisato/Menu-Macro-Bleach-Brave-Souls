@@ -10,6 +10,8 @@ def run_macro(macro_function):
     thread.start()
 
 root = ttk.Window(themename='darkly')
+root.title('Menu de Macros Bleach Brave Souls')
+root.iconbitmap('images/icon.ico')
 root.geometry("500x350")
 
 
